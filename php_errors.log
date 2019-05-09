@@ -1441,3 +1441,21 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/Project/api/addToCart.php(21): PDOStatement->fetch(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/Project/api/addToCart.php on line 21
+[09-May-2019 04:26:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'junkyard'' in /home/ubuntu/workspace/Project/Project/api/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/Project/Project/api/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/Project/Project/api/getFeatured.php(3): getDatabaseConnection('junkyard')
+#2 {main}
+  thrown in /home/ubuntu/workspace/Project/Project/api/inc/dbConnection.php on line 18
+[09-May-2019 04:26:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'junkyard'' in /home/ubuntu/workspace/Project/Project/api/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/Project/Project/api/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/Project/Project/api/getCategories.php(5): getDatabaseConnection('junkyard')
+#2 {main}
+  thrown in /home/ubuntu/workspace/Project/Project/api/inc/dbConnection.php on line 18
+[09-May-2019 04:26:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'junkyard'' in /home/ubuntu/workspace/Project/Project/api/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/Project/Project/api/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/Project/Project/api/specialSearchAPI.php(5): getDatabaseConnection('junkyard')
+#2 {main}
+  thrown in /home/ubuntu/workspace/Project/Project/api/inc/dbConnection.php on line 18
